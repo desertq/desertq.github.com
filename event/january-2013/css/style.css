@@ -305,6 +305,25 @@ a:hover {
     margin-left: 20px;
     font-size:14px;
 }
+
+/******************************Upcoming/Past Events******************************/
+#upcomingEvents, #pastEvents {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+
+#upcomingEvents li, #pastEvents li {
+    list-style-type:none;
+    background:url(../images/bullet-star.png) left no-repeat;
+    display:block;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-size:14px;
+}
+
 /**********Coda bubble**********/
 .arrow {
 	background:url(../images/arrow.png) no-repeat;
@@ -366,6 +385,9 @@ a:hover {
 	margin-bottom: 5px;
 	padding-left: 20px;
 }
+
+
+
 /**********sponsors**********/
 #sponsors {
 	width:100%;
